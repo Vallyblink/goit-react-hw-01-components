@@ -8,10 +8,8 @@ export const Statistics = ({title, stats}) =>{
   <h2 className={css.title}>{title}</h2>
   <ul className={css.statList}>
   {stats.map(e => {
-    const labelMeaning = `${e.label}`.slice(1);
-    console.log(labelMeaning)
           return (
-            <li key={e.id} className={` ${css.item} ${css[labelMeaning]}`}>
+            <li key={e.id} className={` ${css.item} ${css[`${e.label}`.slice(1)]}`}>
               <span className={css.label}>{e.label}</span>
               <span className={css.percentage}>{e.percentage}%</span>
             </li>
