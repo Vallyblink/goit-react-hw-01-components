@@ -6,7 +6,7 @@
 
 .title {
     width: 300px;
-    background-color: darkslategrey;
+    background-color: rgb(74, 131, 131);
     color: #f2fcfe;
     padding: 20px 0;
     font-weight: 600;
@@ -16,10 +16,10 @@
 
 .item {
     padding: 20px 0;
-    font-size: 15px;
+    font-size:20px;
     text-align: center;
 }
 
-.list:nth-child(2n) {
+.itemList:nth-child(2n) {
     background-color: #f2fcfe;
 }

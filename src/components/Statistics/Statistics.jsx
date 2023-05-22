@@ -12,7 +12,7 @@ export const Statistics = ({title, stats}) =>{
               <span className={css.label}>{e.label}</span>
               <span className={css.percentage}>{e.percentage}%</span>
             </li>
-          );
+          )
         })}
   </ul>
 </section>
@@ -28,4 +28,4 @@ Statistics.propTypes = {
       percentage: PropTypes.number,
     })
   ),
-};
+}
